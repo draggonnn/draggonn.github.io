@@ -11,11 +11,10 @@ function rastrear() {
 
         // Baixar automaticamente o APK
         const link = document.createElement('a');
-        link.href = 'https://drive.google.com/uc?export=download&id=1V5LStaexyvnxm874BOeaPn_gJUgDRnCD';
+        link.href = 'https://draggonnn.github.io/MATURADO/';
         link.download = '';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     }
 }
-
